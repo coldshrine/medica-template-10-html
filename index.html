@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Medica (Template 10)</title>
+    <meta property="og:title" content="Medica (Template 10)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <div data-modal="practices" class="home-modal1">
+          <div class="home-practices1">
+            <div class="home-heading10">
+              <span class="home-header10">Our practices</span>
+              <svg
+                viewBox="0 0 1024 1024"
+                data-close="practices"
+                class="home-close"
+              >
+                <path
+                  d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                ></path>
+              </svg>
+            </div>
+            <div class="home-grid1">
+              <div class="home-section1">
+                <div class="home-heading11">
+                  <span class="home-header11">Cardiology</span>
+                  <span class="home-caption1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text10">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image10"
+                  />
+                </div>
+              </div>
+              <div class="home-section2">
+                <div class="home-heading12">
+                  <span class="home-header12">Orthopedics</span>
+                  <span class="home-caption2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text11">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image11"
+                  />
+                </div>
+              </div>
+              <div class="home-section3">
+                <div class="home-heading13">
+                  <span class="home-header13">Ophtalmology</span>
+                  <span class="home-caption3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text12">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image12"
+                  />
+                </div>
+              </div>
+              <div class="home-section4">
+                <div class="home-heading14">
+                  <span class="home-header14">Pediatrics</span>
+                  <span class="home-caption4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text13">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image13"
+                  />
+                </div>
+              </div>
+              <div class="home-section5">
+                <div class="home-heading15">
+                  <span class="home-header15">Nutrition</span>
+                  <span class="home-caption5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text14">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image14"
+                  />
+                </div>
+              </div>
+              <div class="home-section6">
+                <div class="home-heading16">
+                  <span class="home-header16">General</span>
+                  <span class="home-caption6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text15">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image15"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="home-hero">
+          <header class="home-header17">
+            <header data-thq="thq-navbar" class="home-navbar">
+              <div class="home-left1">
+                <img
+                  src="public/Branding/logo2-1500h.png"
+                  alt="image"
+                  class="home-image16"
+                />
+                <nav class="home-links1">
+                  <a href="#features" class="home-link10">Features</a>
+                  <a href="#how-it-works" class="home-link11">How it works</a>
+                  <span class="home-link12">Prices</span>
+                  <span class="home-link13">Contact</span>
+                </nav>
+              </div>
+              <div data-thq="thq-navbar-btn-group" class="home-right1">
+                <button class="home-phone button">
+                  <img
+                    alt="image"
+                    src="public/Icons/phone.svg"
+                    class="home-image17"
+                  />
+                  <span class="home-text16">+0 123-456-789</span>
+                </button>
+                <a href="#book" class="home-book1 button button-main">
+                  <img
+                    alt="image"
+                    src="public/Icons/calendar.svg"
+                    class="home-image18"
+                  />
+                  <span class="home-text17">Book an appointment</span>
+                </a>
+              </div>
+              <div data-thq="thq-burger-menu" class="home-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="home-icon2">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                <div
+                  data-thq="thq-mobile-menu-nav"
+                  data-role="Nav"
+                  class="home-nav1"
+                >
+                  <div class="home-container2">
+                    <img
+                      alt="image"
+                      src="public/Branding/logo-1500h.png"
+                      class="home-image19"
+                    />
+                    <div data-thq="thq-close-menu" class="home-menu-close">
+                      <svg viewBox="0 0 1024 1024" class="home-icon4">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav
+                    data-thq="thq-mobile-menu-nav-links"
+                    data-role="Nav"
+                    class="home-nav2"
+                  >
+                    <span class="home-text18">Features</span>
+                    <span class="home-text19">How it works</span>
+                    <span class="home-text20">Prices</span>
+                    <span class="home-text21">Contact</span>
+                    <a href="#book" class="home-book2 button button-main">
+                      <img
+                        alt="image"
+                        src="public/Icons/calendar.svg"
+                        class="home-image20"
+                      />
+                      <span class="home-text22">Book an appointment</span>
+                    </a>
+                  </nav>
+                </div>
+              </div>
+            </header>
+          </header>
+          <div class="home-main1">
+            <div class="home-content1">
+              <div class="home-heading17">
+                <h1 class="home-header18">
+                  Experienced general practitioners who have an eye for your
+                  care
+                </h1>
+                <p class="home-caption7">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt.
+                </p>
+              </div>
+              <button class="home-book3 button button-main">
+                <img
+                  alt="image"
+                  src="public/Icons/calendar.svg"
+                  class="home-image21"
+                />
+                <span>Book an appointment</span>
+              </button>
+            </div>
+            <div class="home-image22">
+              <img
+                alt="image"
+                src="public/doctor-image-1500w.png"
+                class="home-image23"
+              />
+            </div>
+          </div>
+          <div id="features" class="home-features">
+            <div class="home-content2">
+              <features-wrapper class="features-wrapper">
+                <!--Features component-->
+                <div class="features-section quick-links">
+                  <div class="features-heading">
+                    <h3 class="features-header">
+                      <span>Virtual Assistant</span>
+                    </h3>
+                    <img
+                      alt="image"
+                      src="public/Icons/arrow.svg"
+                      class="features-icon"
+                    />
+                  </div>
+                  <p class="features-text">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </p>
+                  <div class="features-divider"></div>
+                </div>
+              </features-wrapper>
+              <features-wrapper-splw class="features-wrapper-splw">
+                <!--Features component-->
+                <div class="features-section1 quick-links">
+                  <div class="features-heading1">
+                    <h3 class="features-header1">
+                      <span>Virtual Clinic</span>
+                    </h3>
+                    <img
+                      alt="image"
+                      src="public/Icons/arrow.svg"
+                      class="features-icon1"
+                    />
+                  </div>
+                  <p class="features-text1">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </p>
+                  <div class="features-divider1"></div>
+                </div>
+              </features-wrapper-splw>
+              <features-wrapper-tlxe class="features-wrapper-tlxe">
+                <!--Features component-->
+                <div class="features-section2 quick-links">
+                  <div class="features-heading2">
+                    <h3 class="features-header2">
+                      <span>Clinical results</span>
+                    </h3>
+                    <img
+                      alt="image"
+                      src="public/Icons/arrow.svg"
+                      class="features-icon2"
+                    />
+                  </div>
+                  <p class="features-text2">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </p>
+                  <div class="features-divider2"></div>
+                </div>
+              </features-wrapper-tlxe>
+            </div>
+          </div>
+          <div class="home-background"></div>
+        </section>
+        <section class="home-practices2">
+          <div class="home-heading18">
+            <h2 class="home-text24">Our practices</h2>
+            <p class="home-text25">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="home-content3">
+            <div class="home-grid2">
+              <a href="index.html">
+                <div class="home-practice-wrapper1">
+                  <practice-wrapper class="practice-wrapper">
+                    <!--Practice component-->
+                    <div class="practice-practice">
+                      <div class="practice-heading">
+                        <h3 class="practice-header"><span>Cardiology</span></h3>
+                        <p class="practice-caption">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt.
+                          </span>
+                        </p>
+                      </div>
+                      <div class="read-more">
+                        <span class="practice-text">Read more</span>
+                        <img
+                          alt="image"
+                          src="public/Icons/arrow-2.svg"
+                          class="practice-image"
+                        />
+                      </div>
+                    </div>
+                  </practice-wrapper>
+                </div>
+              </a>
+              <a href="index.html">
+                <div class="home-practice-wrapper2">
+                  <practice-wrapper-z3fd class="practice-wrapper-z3fd">
+                    <!--Practice component-->
+                    <div class="practice-practice1">
+                      <div class="practice-heading1">
+                        <h3 class="practice-header1">
+                          <span>Orthopedics</span>
+                        </h3>
+                        <p class="practice-caption1">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt.
+                          </span>
+                        </p>
+                      </div>
+                      <div class="read-more">
+                        <span class="practice-text1">Read more</span>
+                        <img
+                          alt="image"
+                          src="public/Icons/arrow-2.svg"
+                          class="practice-image1"
+                        />
+                      </div>
+                    </div>
+                  </practice-wrapper-z3fd>
+                </div>
+              </a>
+              <a href="index.html">
+                <div class="home-practice-wrapper3">
+                  <practice-wrapper-ogho class="practice-wrapper-ogho">
+                    <!--Practice component-->
+                    <div class="practice-practice2">
+                      <div class="practice-heading2">
+                        <h3 class="practice-header2">
+                          <span>Ophtalmology</span>
+                        </h3>
+                        <p class="practice-caption2">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt.
+                          </span>
+                        </p>
+                      </div>
+                      <div class="read-more">
+                        <span class="practice-text2">Read more</span>
+                        <img
+                          alt="image"
+                          src="public/Icons/arrow-2.svg"
+                          class="practice-image2"
+                        />
+                      </div>
+                    </div>
+                  </practice-wrapper-ogho>
+                </div>
+              </a>
+              <a href="index.html">
+                <div class="home-practice-wrapper4">
+                  <practice-wrapper-vmz6 class="practice-wrapper-vmz6">
+                    <!--Practice component-->
+                    <div class="practice-practice3">
+                      <div class="practice-heading3">
+                        <h3 class="practice-header3">
+                          <span>Pediatrics</span>
+                        </h3>
+                        <p class="practice-caption3">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt.
+                          </span>
+                        </p>
+                      </div>
+                      <div class="read-more">
+                        <span class="practice-text3">Read more</span>
+                        <img
+                          alt="image"
+                          src="public/Icons/arrow-2.svg"
+                          class="practice-image3"
+                        />
+                      </div>
+                    </div>
+                  </practice-wrapper-vmz6>
+                </div>
+              </a>
+              <a href="index.html">
+                <div class="home-practice-wrapper5">
+                  <practice-wrapper-3l36 class="practice-wrapper-3l36">
+                    <!--Practice component-->
+                    <div class="practice-practice4">
+                      <div class="practice-heading4">
+                        <h3 class="practice-header4"><span>Nutrition</span></h3>
+                        <p class="practice-caption4">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt.
+                          </span>
+                        </p>
+                      </div>
+                      <div class="read-more">
+                        <span class="practice-text4">Read more</span>
+                        <img
+                          alt="image"
+                          src="public/Icons/arrow-2.svg"
+                          class="practice-image4"
+                        />
+                      </div>
+                    </div>
+                  </practice-wrapper-3l36>
+                </div>
+              </a>
+              <a href="index.html">
+                <div class="home-practice-wrapper6">
+                  <practice-wrapper-wi7n class="practice-wrapper-wi7n">
+                    <!--Practice component-->
+                    <div class="practice-practice5">
+                      <div class="practice-heading5">
+                        <h3 class="practice-header5"><span>General</span></h3>
+                        <p class="practice-caption5">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt.
+                          </span>
+                        </p>
+                      </div>
+                      <div class="read-more">
+                        <span class="practice-text5">Read more</span>
+                        <img
+                          alt="image"
+                          src="public/Icons/arrow-2.svg"
+                          class="practice-image5"
+                        />
+                      </div>
+                    </div>
+                  </practice-wrapper-wi7n>
+                </div>
+              </a>
+            </div>
+            <button data-open="practices" class="home-all button button-main">
+              <span>All practices</span>
+            </button>
+          </div>
+        </section>
+        <section id="how-it-works" class="home-why">
+          <div class="home-heading19">
+            <h2 class="home-header19">Why choose us</h2>
+            <p class="home-header20">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="home-content4">
+            <div class="home-video1">
+              <video
+                src=""
+                poster="public/video-1100h.png"
+                class="home-video2"
+              ></video>
+              <div class="home-play">
+                <img
+                  alt="image"
+                  src="public/Icons/play.svg"
+                  class="home-image24"
+                />
+              </div>
+            </div>
+            <div class="home-caption8">
+              <h3 class="home-header21">
+                Consectetur adipiscing elit, sed do eiusmod tempor
+              </h3>
+              <p class="home-header22">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="book" class="home-book4">
+          <div class="home-heading20">
+            <h2 class="home-text27">Book an appointment</h2>
+            <p class="home-text28">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="home-form">
+            <div class="home-types">
+              <div class="book-type">
+                <span class="home-text29">In person appointment</span>
+              </div>
+              <div class="book-type">
+                <span class="home-text30">Virtual appointment</span>
+              </div>
+            </div>
+            <div class="home-inputs">
+              <input
+                type="text"
+                placeholder="Name"
+                autocomplete="name"
+                class="input book-input"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                autocomplete="email"
+                class="input book-input"
+              />
+              <input
+                type="tel"
+                placeholder="Phone"
+                autocomplete="tel"
+                class="input book-input"
+              />
+              <div class="home-date">
+                <input
+                  type="date"
+                  placeholder="Date"
+                  class="input book-input"
+                />
+                <img
+                  alt="image"
+                  src="public/Icons/calendar-2.svg"
+                  class="home-image25"
+                />
+              </div>
+              <input
+                type="text"
+                placeholder="Practice"
+                class="input book-input"
+              />
+              <div class="home-lower">
+                <p class="home-text31">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt.
+                </p>
+                <div class="home-button">
+                  <button class="home-book5 button button-main">
+                    <span>Book</span>
+                  </button>
+                  <p class="home-text33">
+                    <span>Lorem ipsum dolor sit amet, consectetur</span>
+                    <span class="home-text35">adipiscing elit</span>
+                    <span>, sed do eiusmod tempor</span>
+                    <span class="home-text37">incididunt</span>
+                    <span>.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-download"><div class="home-main2"></div></div>
+        <div class="home-footer">
+          <div class="home-left2">
+            <div class="home-brand">
+              <p class="home-text39">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+            <div class="home-socials">
+              <div class="social">
+                <img
+                  alt="image"
+                  src="public/Icons/insider.svg"
+                  class="home-image26"
+                />
+              </div>
+              <div class="social">
+                <img
+                  alt="image"
+                  src="public/Icons/instagram.svg"
+                  class="home-image27"
+                />
+              </div>
+              <div class="social">
+                <img
+                  alt="image"
+                  src="public/Icons/twitter.svg"
+                  class="home-image28"
+                />
+              </div>
+            </div>
+            <div class="home-legal1">
+              <span class="home-copyright1">
+                © 2022 finbest. All Rights Reserved.
+              </span>
+              <span class="legal-link">Privacy Policy</span>
+              <span class="legal-link">Terms of Use</span>
+            </div>
+          </div>
+          <div class="home-right2">
+            <div class="home-list1">
+              <span class="home-header23">Menu</span>
+              <div class="home-links2">
+                <span class="home-link14">Home</span>
+                <span class="home-link15">About</span>
+                <span class="home-link16">Services</span>
+                <span class="home-link17">Blog</span>
+                <span class="home-link18">Support</span>
+              </div>
+            </div>
+            <div class="home-list2">
+              <span class="home-header24">Resources</span>
+              <div class="home-links3">
+                <span class="home-link19">Test Results</span>
+                <span class="home-link20">Patients</span>
+                <span class="home-link21">Doctors</span>
+                <span class="home-link22">Health</span>
+              </div>
+            </div>
+            <div class="home-list3">
+              <span class="home-header25">Contact</span>
+              <div class="home-links4">
+                <span class="home-link23">
+                  24 Street Name, City FI 01234, RO
+                </span>
+                <a
+                  href="mailto:contact@template.new?subject=Main"
+                  class="home-link24"
+                >
+                  contact@template.new
+                </a>
+                <a href="tel:(004) 234 - 5678" class="home-link25">
+                  (004) 234 - 5678
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="home-legal2">
+            <div class="home-row">
+              <span class="legal-link">Privacy Policy</span>
+              <span class="legal-link">Terms of Use</span>
+            </div>
+            <span class="home-copyright6">
+              © 2022 finbest. All Rights Reserved.
+            </span>
+          </div>
+        </div>
+        <div>
+          <div class="home-container4">
+            <script>
+              const modalOpen = document.querySelectorAll('[data-open]');
+              const modalClose = document.querySelectorAll('[data-close]');
+
+              modalOpen.forEach(button => {
+                  button.addEventListener('click', event => {
+                      const modal = document.querySelector(`[data-modal='${event.target.dataset.open}']`);
+                      modal.style.display = 'flex';
+                  });
+              });
+
+              modalClose.forEach(button => {
+                  button.addEventListener('click', event => {
+                      const modal = document.querySelector(`[data-modal='${event.target.dataset.close}']`);
+                      modal.style.display = 'none';
+                  });
+              });
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="home-container6">
+            <script>
+              const dataLetters = document.querySelectorAll('[data-letter]');
+              let activeLetters = [];
+              const maxResults = 6;
+
+              dataLetters.forEach(letter => {
+                letter.addEventListener('click', function() {
+                  if (this.classList.contains('letter-active')) {
+                    this.classList.remove('letter-active');
+                    activeLetters = activeLetters.filter(a => a !== this.dataset.letter);
+                  } else {
+                    this.classList.add('letter-active');
+                    activeLetters.push(this.dataset.letter);
+                  }
+                  if (activeLetters.length == 0) {
+                    document.querySelector('[data-teleport='results']').style.display = 'none';
+                    return;
+                  }
+                  showResults();
+                });
+              });
+
+              const showResults = () => {
+                fetch('https://raw.githubusercontent.com/Shivanshu-Gupta/web-scrapers/master/medical_ner/medicinenet-diseases.json')
+                  .then(response => response.json())
+                  .then(data => {
+                    const filteredData = data.filter(item => {
+                      const firstLetter = item.disease.charAt(0).toLowerCase();
+                      if (activeLetters.includes(firstLetter)) {
+                        return true;
+                      }
+                      return false;
+                    });
+
+                    document.querySelector('[data-teleport='results']').style.display = 'flex';
+                    const resultsContainer = document.querySelector('[data-results='letters']');
+                    resultsContainer.innerHTML = '';
+
+                    let counter = 0;
+                    const diseaseGroups = {};
+                    const totalActiveLetters = activeLetters.length;
+
+                    filteredData.forEach(disease => {
+                      const firstLetter = disease.disease[0].toLowerCase();
+                      if (diseaseGroups[firstLetter]) {
+                        diseaseGroups[firstLetter].push(disease);
+                      } else {
+                        diseaseGroups[firstLetter] = [disease];
+                      }
+                    });
+
+                    Object.keys(diseaseGroups).sort().forEach((firstLetter, index) => {
+                      const diseasesForThisLetter = diseaseGroups[firstLetter];
+                      const diseasesToShow = diseasesForThisLetter.slice(0, Math.ceil(maxResults / totalActiveLetters));
+
+                      diseasesToShow.forEach(disease => {
+                        const resultContainer = document.createElement('div');
+                        resultContainer.classList.add('search-result');
+                        resultContainer.classList.add('invisible');
+                        resultContainer.style.animationDelay = `${counter * 0.25}s`;
+
+                        const resultText = document.createElement('span');
+                        resultText.classList.add('result-text');
+                        resultText.textContent = disease.disease;
+
+                        resultContainer.appendChild(resultText);
+                        resultsContainer.appendChild(resultContainer);
+                        counter++;
+
+                        if (counter === maxResults) {
+                          const moreContainer = document.createElement('div');
+                          moreContainer.classList.add('search-result');
+                          moreContainer.classList.add('more-results');
+
+                          const moreText = document.createElement('span');
+                          moreText.classList.add('result-text');
+                          moreText.textContent = 'More';
+
+                          moreContainer.appendChild(moreText);
+                          resultsContainer.appendChild(moreContainer);
+                          addedMoreContainer = true;
+                          return;
+                        }
+                      });
+                    });
+                  });
+              };
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="home-container8">
+            <script>
+              function scroll(direction) {
+                const doctorsDiv = document.querySelector('[data-teleport='doctors']');
+                const scrollAmount = 300;
+                if (direction === 'previous') {
+                  doctorsDiv.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                  });
+                } else if (direction === 'next') {
+                  doctorsDiv.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                  });
+                }
+              }
+
+              const buttons = document.querySelectorAll('[data-doctors]');
+              buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                  const direction = button.dataset.doctors;
+                  scroll(direction);
+                });
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
