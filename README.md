@@ -1,1 +1,1 @@
-# Medica-Template-10-HTML
+Static website for Med. Insurance company
