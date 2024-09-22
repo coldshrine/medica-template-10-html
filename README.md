@@ -1,1 +1,1 @@
-Static website for Med. Insurance company
+Static website for Med. Insurance company.
